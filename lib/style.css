@@ -14,7 +14,7 @@
 }
 
 header{
-    background-color: rgba(200,166,106);
+    background-color: rgb(199, 174, 131);
 }
 
 .carousel-inner img {
@@ -22,17 +22,33 @@ header{
     height: 650px; 
 }
 
+#header .nav .nav-link.active {
+    background-color: rgb(231, 177, 82);
+    color: white;
+}
 
+#header .nav .nav-link{
+    color: white;
+}
+.navbar-brand:hover,
+.nav-menu .nav-link.active:hover,
+.nav-menu .nav-link.active{
+    color: white;
+    background-color:rgb(231, 177, 82) ;
+}
 
+.nav-menu .nav-link:hover{
+    color:rgb(231, 177, 82)  ;
+}
 
+.text-colored{
+    color:rgb(236, 159, 25);
+}
 
-
-
-
-
-
-
-
+#about,
+#journey{
+    background-color: rgb(247, 223, 181);
+}
 
 
 
