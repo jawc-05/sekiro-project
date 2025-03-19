@@ -1,0 +1,48 @@
+.alike-angular-regular {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-title{
+    font-family: Alike Angular, serif;
+}
+
+.section-title {
+    display: inline-block;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(200,166,106);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .logo-large {
+        width: 200px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .logo-large {
+        width: 100px; 
+    }
+}
